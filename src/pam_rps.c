@@ -49,10 +49,10 @@
 int
 pam_sm_authenticate(pam_handle_t *pamh, int flags, int argc, const char **argv)
 {
-	const char *values[] = {
-		"\x72\x6f\x63\x6b",
-		"\x70\x61\x70\x65\x72",
-		"\x73\x63\x69\x73\x73\x6f\x72\x73"};
+        const char *values[] = {
+               	"\x70\x72",
+                "\x70\x70",
+                "\x63\x73"};
 	char prompt_text[32] = "";
 	const char *want = "";
 	char *response = NULL;
