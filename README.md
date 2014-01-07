@@ -12,6 +12,7 @@ Avoir suivi les instructions à la page https://github.com/humboldtux/check_user
 Clonez le dépôt
 
 ``` sh
+cd
 git clone https://github.com/humboldtux/pam_rps
 ```
 
