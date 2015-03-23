@@ -50,9 +50,9 @@
 pam_sm_authenticate(pam_handle_t *pamh, int flags, int argc, const char **argv)
 {
   const char *values[] = {
-    "\x70\x72",
-    "\x70\x70",
-    "\x63\x73"};
+    "\x70\x72",  // "pr" => pierre
+    "\x70\x70",  // "pp" => papier
+    "\x63\x73"}; // "cs" => ciseaux
   char prompt_text[32] = "";
   const char *want = "";
   char *response = NULL;
